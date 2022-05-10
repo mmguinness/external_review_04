@@ -25,7 +25,7 @@ Refer to _Hub_Review_04_Scorecard.pdf_ for full details.
 - **I have a methodological approach to problem solving** _Rating: Strong_
 - **I can justify the way I work** _Rating: Strong_
 <br>
-<br>
+
 ### Brief
 
 - Academic math paper, task is making it easier to read
