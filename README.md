@@ -9,7 +9,24 @@
 - Reviewing my Test Driven Developement Process:<br>
 <img src="./images/process_outline.png" alt="TDD Process diagram" height="200" />
 
-**Brief**
+
+### Scorecard
+**General feedback**<br>
+Excellent work! You are methodical which allows you to analyse a problem and steadily work your way towards a robust solution without racing ahead or getting stuck. I recommend that you finish this exercise on your own time (with multiple operators) and think through different architectures for your solution, with their pros and cons.<br>
+Refer to _Hub_Review_04_Scorecard.pdf_ for full details.
+<br>
+- **I use an agile process** _Rating: Strong_
+- **I can model anything** _Rating: Steady_
+- **I can TDD anything** _Rating: Strong_
+- **I can program fluently** _Rating: Strong_
+- **I can refactor anything** _Rating: Strong_
+- **I can debug anything** _Rating: Steady_
+- **I write code that is easy to change** _Rating: Strong_
+- **I have a methodological approach to problem solving** _Rating: Strong_
+- **I can justify the way I work** _Rating: Strong_
+<br>
+<br>
+### Brief
 
 - Academic math paper, task is making it easier to read
 - maths equations are extracted as strings and evaluated by a **new program**
