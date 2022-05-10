@@ -3,7 +3,7 @@ class EvaluateTerms
     @components = []
   end
  
-  def evaluate_sum(terms)
+  def evaluate(terms)
     @components = terms.split(" ")
     raise "Input must be a valid mathematical string separated by spaces" if @components[0].include?("+") == true
 
