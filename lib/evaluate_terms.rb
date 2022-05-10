@@ -5,6 +5,7 @@ class EvaluateTerms
  
   def evaluate(terms)
     @components = terms.split(" ")
+    if terms == "" then return ["", terms.to_f] end
     raise "Input must be a valid mathematical string separated by spaces" if @components[0].include?("+") == true
     raise "Math Error" if @components[0] != "0" && @components[0].to_f == 0.0
     if @components.length == 1

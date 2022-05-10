@@ -35,5 +35,9 @@ describe EvaluateTerms do
     it 'when passed "0" as a term, returns the original terms and evaluated total' do
       expect(evaluate_terms.evaluate("0")).to eq ["0", 0.0]
     end
+
+     it 'when passed "" as a term, returns the original terms and evaluated total' do
+      expect(evaluate_terms.evaluate("")).to eq ["", 0.0]
+    end
   end
 end
