@@ -24,5 +24,9 @@ describe EvaluateTerms do
       expect { evaluate_terms.evaluate("2+3") }.to raise_error "Input must be a valid mathematical string separated by spaces"
     end
 
+    it 'when passed no terms, just a string, returns an error' do
+      expect { evaluate_terms.evaluate("What's up, calculator!?") }.to raise_error "Math Error"
+    end
+
   end
 end
