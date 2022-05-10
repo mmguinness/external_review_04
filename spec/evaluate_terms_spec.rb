@@ -20,5 +20,9 @@ describe EvaluateTerms do
       expect(evaluate_terms.evaluate_sum("-2 + 3")).to eq ["-2 + 3", 1.0]
     end
 
+    it 'when passed two terms without spaces, returns an error' do
+      expect { evaluate_terms.evaluate_sum("2+3") }.to raise_error "Input must be a valid mathematical string separated by spaces"
+    end
+
   end
 end
