@@ -17,5 +17,11 @@ describe EvaluateTerms do
       evaluate_terms = EvaluateTerms.new
       expect(evaluate_terms.evaluate("2 + 3")).to eq ["2 + 3", 5.0]
     end
+
+    it 'when passed two terms, returns the original terms and evaluated total' do
+      evaluate_terms = EvaluateTerms.new
+      expect(evaluate_terms.evaluate("-2 + 3")).to eq ["-2 + 3", 1.0]
+    end
+
   end
 end
