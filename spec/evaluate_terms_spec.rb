@@ -28,9 +28,12 @@ describe EvaluateTerms do
       expect { evaluate_terms.evaluate("What's up, calculator!?") }.to raise_error "Math Error"
     end
 
-      it 'when passed no terms, just a string, returns an error' do
+    it 'when passed no terms, just a string, returns an error' do
       expect { evaluate_terms.evaluate("I'm a string not a term") }.to raise_error "Math Error"
     end
 
+    it 'when passed "0" as a term, returns the original terms and evaluated total' do
+      expect(evaluate_terms.evaluate("0")).to eq ["0", 0.0]
+    end
   end
 end
