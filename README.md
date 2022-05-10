@@ -2,14 +2,14 @@
 
 ## External Code Review by Fuchsia Tentacool 42 ##
 
-**About**
+### About
 - Brief given verablly by external reviewer as mock test
 - 1hr test, recorded live, with feedback given after.
 - Completed using **Ruby & RSpec**
 - Reviewing my Test Driven Developement Process:<br>
 <img src="./images/process_outline.png" alt="TDD Process diagram" height="200" />
 
-### Brief
+**Brief**
 
 - Academic math paper, task is making it easier to read
 - maths equations are extracted as strings and evaluated by a **new program**
