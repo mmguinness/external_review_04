@@ -21,17 +21,17 @@ Operators - sums first, then -, *,
 
 INPUT | OUTPUT
 
-"2" | [ "2", 2.0 ]
+"2" | ["2", 2.0]
 
-"-2" | [ "-2", -2.0 ]
+"-2" | ["-2", -2.0]
 
 "2 + 3" | ["2 + 3", 5.0]
 
 "1+1" | "Input must be a valid mathematical string separated by spaces"
 
-"0" | [ "0", 0.0 ]
+"0" | ["0", 0.0]
 
-"" | [ "", 0.0 ]
+"" | ["", 0.0]
 
 "What's up, calculator!?" | MathError "What's up, calculator!?" | Error incorrect input
 
