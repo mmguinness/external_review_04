@@ -15,7 +15,7 @@ Term - integer or float, zero , positive or negative
 Input - 
 "2 + 3"
 
-Operators - sums first, then -, *, 
+Operators - + first, then -, *, %
 
 
 
@@ -35,7 +35,7 @@ INPUT | OUTPUT
 
 "What's up, calculator!?" | MathError "What's up, calculator!?" | Error incorrect input
 
-"5 + 5 + 5 + 5" | ArgumentError "Input must be a string
+"5 + 5 + 5 + 5" | ArgumentError "Input must be a string"
 
 
 Nice to have
