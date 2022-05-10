@@ -1,6 +1,6 @@
 # external_review_04
 
-## External Code Review by Fuchsia Tentacool 42 ##
+## Code Review (external, from outside Makers Academy) ##
 
 ### About
 - Brief given verablly by external reviewer as mock test
