@@ -7,5 +7,11 @@ describe EvaluateTerms do
       evaluate_terms = EvaluateTerms.new
       expect(evaluate_terms.evaluate("2")).to eq ["2", 2.0]
     end
+
+    it 'returns a single negative term with the original term and evaluated total' do
+      evaluate_terms = EvaluateTerms.new
+      expect(evaluate_terms.evaluate("-2")).to eq ["-2", -2.0]
+    end
+
   end
 end
