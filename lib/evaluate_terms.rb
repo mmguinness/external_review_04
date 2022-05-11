@@ -16,11 +16,15 @@ class EvaluateTerms
       minus
     elsif @components[1] == "*"
       multiply
+    elsif @components[1] == "/"
+      divide
     else
       add
     end
     [terms, @total]
   end
+
+  private
 
   def minus
     @total = @components[0].to_f - @components[2].to_f
@@ -32,6 +36,10 @@ class EvaluateTerms
 
   def add
     @total = @components[0].to_f + @components[2].to_f
+  end
+
+  def divide
+    @total = @components[0].to_f / @components[2].to_f
   end
 
 end
