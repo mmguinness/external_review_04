@@ -51,5 +51,9 @@ describe EvaluateTerms do
     it 'when passed two terms, with a "-", returns the original terms and evaluated total' do
       expect(evaluate_terms.evaluate("-8 - 1")).to eq ["-8 - 1", -9.0]
     end
+
+     it 'when passed two terms, with a "*", returns the original terms and evaluated total' do
+      expect(evaluate_terms.evaluate("2 * 3")).to eq ["2 * 3", 6.0]
+    end
   end
 end
