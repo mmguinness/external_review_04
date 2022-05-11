@@ -1,12 +1,12 @@
-# external_review_04
+# External_Review_04
 
-## Code Review (external, from outside Makers Academy) ##
+## Code Review (_organised through Makers Academy from external provider_) ##
 
 ### About
 - Brief given verablly by external reviewer as mock test
 - 1hr test, recorded live, with feedback given after.
 - Completed using **Ruby & RSpec**
-- Reviewing my Test Driven Developement Process:<br>
+- Reviewing my Test Driven Developement process:<br>
 <img src="./images/process_outline.png" alt="TDD Process diagram" height="200" />
 
 
