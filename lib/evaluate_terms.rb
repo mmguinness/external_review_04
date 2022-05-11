@@ -1,6 +1,7 @@
 class EvaluateTerms 
   def initialize
     @components = []
+    @total = nil
   end
  
   def evaluate(terms)
@@ -10,17 +11,27 @@ class EvaluateTerms
     raise "Math Error" if @components[0] != "0" && @components[0].to_f == 0.0
     raise "Argument Error" if @components.length > 3
     if @components.length == 1
-      [terms, terms.to_f]
+      @total = terms.to_f
     elsif @components[1] == "-"
-      total = @components[0].to_f - @components[2].to_f
-      [terms, total]
+      minus
     elsif @components[1] == "*"
-      total = @components[0].to_f * @components[2].to_f
-      [terms, total]
+      multiply
     else
-      total = @components[0].to_f + @components[2].to_f
-      [terms, total]
+      add
     end
+    [terms, @total]
+  end
+
+  def minus
+    @total = @components[0].to_f - @components[2].to_f
+  end
+
+  def multiply
+    @total = @components[0].to_f * @components[2].to_f
+  end
+
+  def add
+    @total = @components[0].to_f + @components[2].to_f
   end
 
 end
